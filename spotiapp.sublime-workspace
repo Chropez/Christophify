@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"list-s",
+				"list-style"
+			],
+			[
 				"dishes",
 				"dishesFetched"
 			],
@@ -47,6 +51,81 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/templates/application.hbs",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/app.css",
+			"settings":
+			{
+				"buffer_size": 191,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/artist.js",
+			"settings":
+			{
+				"buffer_size": 148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/artists.js",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/adapters/application.js",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "export default function() {\n  this.get('artists');\n  this.get('artists/:id');\n\n  // These comments are here to help you get started. Feel free to delete them.\n\n  /*\n    Config (with defaults).\n\n    Note: these only affect routes defined *after* them!\n  */\n  // this.urlPrefix = '';    // make this `http://localhost:8080`, for example, if your API is on a different server\n  // this.namespace = '';    // make this `api`, for example, if your API is namespaced\n  // this.timing = 400;      // delay for each request, automatically set to 0 during testing\n\n  /*\n    Route shorthand cheatsheet\n  */\n  /*\n    GET shorthands\n\n    // Collections\n    this.get('/contacts');\n    this.get('/contacts', 'users');\n    this.get('/contacts', ['contacts', 'addresses']);\n\n    // Single objects\n    this.get('/contacts/:id');\n    this.get('/contacts/:id', 'user');\n    this.get('/contacts/:id', ['contact', 'addresses']);\n  */\n\n  /*\n    POST shorthands\n\n    this.post('/contacts');\n    this.post('/contacts', 'user'); // specify the type of resource to be created\n  */\n\n  /*\n    PUT shorthands\n\n    this.put('/contacts/:id');\n    this.put('/contacts/:id', 'user'); // specify the type of resource to be updated\n  */\n\n  /*\n    DELETE shorthands\n\n    this.del('/contacts/:id');\n    this.del('/contacts/:id', 'user'); // specify the type of resource to be deleted\n\n    // Single object + related resources. Make sure parent resource is first.\n    this.del('/contacts/:id', ['contact', 'addresses']);\n  */\n\n  /*\n    Function fallback. Manipulate data in the db via\n\n      - db.{collection}\n      - db.{collection}.find(id)\n      - db.{collection}.where(query)\n      - db.{collection}.update(target, attrs)\n      - db.{collection}.remove(target)\n\n    // Example: return a single object with related models\n    this.get('/contacts/:id', function(db, request) {\n      var contactId = +request.params.id;\n\n      return {\n        contact: db.contacts.find(contactId),\n        addresses: db.addresses.where({contact_id: contactId})\n      };\n    });\n\n  */\n}\n\n/*\nYou can optionally export a config that is only loaded during tests\nexport function testConfig() {\n\n}\n*/\n",
+			"file": "app/mirage/config.js",
+			"file_size": 2115,
+			"file_write_time": 130928223312708552,
+			"settings":
+			{
+				"buffer_size": 2142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/mirage/fixtures/artists.js",
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/mirage/scenarios/default.js",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/artists.hbs",
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -222,10 +301,27 @@
 	},
 	"expanded_folders":
 	[
-		"//EMBER-SERVER/ember-workspace/SpotiApp"
+		"//EMBER-SERVER/ember-workspace/SpotiApp",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/adapters",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/fixtures",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/scenarios",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/routes",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/styles",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/tests"
 	],
 	"file_history":
 	[
+		"/C/Users/clopez/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates/artists.hbs",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/styles/app.css",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/spotiapp.sublime-project",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/.ember-cli",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/bower.json",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates/application.hbs",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates/index.hbs",
 		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/components/week-day/template.hbs",
 		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/week/route.js",
 		"//EMBER-SERVER/ember-workspace/Weekfood/app/router.js",
@@ -244,7 +340,6 @@
 		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/route.js",
 		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/application/template.hbs",
 		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/application/route.js",
-		"/C/Users/clopez/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/clopez/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"//EMBER-SERVER/ember-workspace/Weekfood/.sublime-project",
 		"/C/Workspace/Jpn/Development/Main/Documents/bootstrap-datepicker-changes.txt",
@@ -346,14 +441,7 @@
 		"/C/Workspace/Jpn/Development/Releases/Release 2.3.0/Deliverables/SQL/01 JpnDb.sql",
 		"/C/Workspace/Jpn/Development/Releases/Release 2.3.0/Deliverables/IIS/Jpn.Service.WcfService/Jpn.Service.WcfService.SetParameters.NMT.xml",
 		"/C/temp/IIS/Jpn.Admin.Client.SetParameters.PROD.xml",
-		"/C/temp/IIS/tmp/Jpn.Admin.Client.SetParameters.PROD.xml",
-		"/C/temp/IIS/tmp/Jpn.Service.WcfService.SetParameters.PROD.xml",
-		"/C/Workspace/Jpn/Development/Releases/Release 2.3.0/Deliverables/IIS/Jpn.Admin.Client/Jpn.Admin.Client.SetParameters.NMT.xml",
-		"/C/temp/IIS/Jpn.Admin.Client.SetParameters.NMT.xml",
-		"/C/temp/IIS/Jpn.Service.WcfService.SetParameters.PROD.xml",
-		"/C/temp/IIS/Jpn.Service.WcfService.SetParameters.NMT.xml",
-		"/C/temp/IIS/Jpn.Service.MockService.SetParameters.PROD.xml",
-		"/C/temp/IIS/Jpn.Admin.Client.SetParameters.QA.xml"
+		"/C/temp/IIS/tmp/Jpn.Admin.Client.SetParameters.PROD.xml"
 	],
 	"find":
 	{
@@ -372,6 +460,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Artists",
 			"Service",
 			"\n  nextWeek : Ember.computed('momentWeek', function() {\n    return this.get('momentWeek').add(1, 'week').week();\n  })",
 			"sideloaded",
@@ -514,8 +603,306 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/templates/application.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": false,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/artist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								69
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/routes/artists.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/adapters/application.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/mirage/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/mirage/fixtures/artists.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/mirage/scenarios/default.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/templates/artists.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								17
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": false,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -567,6 +954,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"apphb",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"aphb",
+				"app\\templates\\application.hbs"
+			],
 			[
 				"router",
 				"app\\router.js"

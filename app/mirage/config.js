@@ -1,4 +1,8 @@
 export default function() {
+  this.get('/artists', ['artists','songs']);
+  this.get('/artists/:id');
+  this.get('/songs', ['songs','artists']);
+  this.get('/songs/:id');
 
   // These comments are here to help you get started. Feel free to delete them.
 

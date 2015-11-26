@@ -1,1 +1,7 @@
+<h2>Artists</h2>
+
+{{#each model as |artist index|}}
+  {{index}} - {{artist.name}}. Songs: {{artist.songs.length}}<br>
+{{/each}}
+
 {{outlet}}

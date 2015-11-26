@@ -1,0 +1,21 @@
+#site-wrapper {
+  display: flex;
+}
+#sidebar {
+  width: 20%;
+  padding:20px;
+}
+
+#sidebar ul {
+  padding:0;
+  list-style: none;
+}
+
+#content {
+  width: 80%;
+  padding: 20px;
+}
+
+#content h2 {
+
+}

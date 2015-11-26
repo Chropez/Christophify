@@ -1,3 +1,22 @@
-<h2 id="title">Welcome to SpotiApp!!</h2>
+<div id="site-wrapper">
+  <div id="sidebar">
+    <ul>
+      <li>
+        {{#link-to 'application'}}Home{{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'artists'}}Artists{{/link-to}}
+      </li>
+      <li>
+        Albums
+      </li>
+      <li>
+        Songs
+      </li>
+    </ul>
+  </div>
 
-{{outlet}}
+  <div id="content">
+    {{outlet}}
+  </div>
+</div>
