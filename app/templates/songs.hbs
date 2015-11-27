@@ -1,0 +1,11 @@
+<h2>Top Songs</h2>
+
+<ul id="top-song-list">
+{{#each model as |song|}}
+  <li>
+    <div class="song-name">{{song.name}}</div>
+    <div class="song-artist">{{song.artist.name}}</div>
+    <a href="{{song.mp3}}" target="_blank">Play</a>
+  </li>
+{{/each}}
+</ul>

@@ -7,6 +7,7 @@ export default DS.Model.extend({
   name : attr('string'),
   image: attr('string'),
   date : attr('date'),
+  listened: attr('number'),
 
   songs: hasMany('song', { async: true })
 });
