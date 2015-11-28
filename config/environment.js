@@ -43,5 +43,15 @@ module.exports = function(environment) {
 
   }
 
+  ENV.contentSecurityPolicy = {
+    'default-src': "'none'",
+    'script-src': "'self' 'unsafe-eval'",
+    'font-src': "'self'",
+    'connect-src': "'self'",
+    'img-src': "'self' http://www.billboard.com/",
+    'style-src': "'self'",
+    'media-src': "'self'"
+  }
+
   return ENV;
 };

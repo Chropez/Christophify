@@ -1,0 +1,8 @@
+{{#if hasSong}}
+  {{#if isPlaying}}
+    <button {{action 'pause'}}>Pause</button>
+  {{else}}
+    <button {{action 'play'}}>Play</button>
+  {{/if}}
+{{/if}}
+

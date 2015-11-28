@@ -5,7 +5,7 @@
   <li>
     <div class="song-name">{{song.name}}</div>
     <div class="song-artist">{{song.artist.name}}</div>
-    <a href="{{song.mp3}}" target="_blank">Play</a>
+    <button {{action 'play' song}}>Play</button>
   </li>
 {{/each}}
 </ul>
