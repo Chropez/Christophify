@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'christopiphy',
+    modulePrefix: 'christophify',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

@@ -1,5 +1,13 @@
+body {
+  background-color: #333;
+}
+
 #site-wrapper {
   display: flex;
+  background-color: #2D2D32;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 #sidebar {
   width: 20%;
