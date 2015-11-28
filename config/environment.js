@@ -46,10 +46,10 @@ module.exports = function(environment) {
   ENV.contentSecurityPolicy = {
     'default-src': "'none'",
     'script-src': "'self' 'unsafe-eval'",
-    'font-src': "'self'",
+    'font-src': "'self' https://fonts.gstatic.com/",
     'connect-src': "'self'",
     'img-src': "'self' http://www.billboard.com/",
-    'style-src': "'self'",
+    'style-src': "'self' https://fonts.googleapis.com/",
     'media-src': "'self'"
   }
 
