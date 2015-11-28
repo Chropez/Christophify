@@ -13,7 +13,8 @@ export default Ember.Service.extend({
       return;
     }
     this.set('currentSong', song);
-    const { audio, 'currentSong.mp3' : mp3 } = this.getProperties('audio', 'currentSong.mp3');
+    const audio = this.get('audio'),
+            mp3 = song.get('mp3')  ;
 
     audio.src = mp3;
     this.set('playing', true);

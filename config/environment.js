@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'spoti-app',
+    modulePrefix: 'christopiphy',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
