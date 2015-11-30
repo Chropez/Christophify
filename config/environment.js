@@ -48,7 +48,7 @@ module.exports = function(environment) {
     'script-src': "'self' 'unsafe-eval'",
     'font-src': "'self' https://fonts.gstatic.com/",
     'connect-src': "'self'",
-    'img-src': "'self' http://www.billboard.com/",
+    'img-src': "'self' https://i.scdn.co/ http://profile-images.scdn.co/ https://d3rt1990lpmkn.cloudfront.net",
     'style-src': "'self' https://fonts.googleapis.com/",
     'media-src': "'self'"
   }

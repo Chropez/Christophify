@@ -1,13 +1,13 @@
-<h2>Top Artists</h2>
-
-{{#each model as |artist index|}}
-  <div>
-    <img src="{{artist.image}}" alt="">
-  </div>
-  <div>
-    {{artist.name}}.
-    Songs: {{artist.songs.length}}<br>
-  </div>
-{{/each}}
-
-{{outlet}}
+<div id="artists-content">
+  {{#each model as |artist|}}
+    <div class="artist-wrapper">
+      <div class="artist-image">
+        <img src="{{artist.image}}" alt="">
+      </div>
+      <div class="artist-info">
+        <div class="primary-text">{{artist.name}}</div>
+        <div class="secondary-text">{{artist.songs.length}} songs</div>
+      </div>
+    </div>
+  {{/each}}
+</div>
