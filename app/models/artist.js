@@ -5,7 +5,8 @@ var { attr, hasMany } = DS;
 
 export default DS.Model.extend({
   name : attr('string'),
-  image: attr('string'),
+  thumbnail: attr('string'),
+  coverImage: attr('string'),
   date : attr('date'),
   listened: attr('number'),
 

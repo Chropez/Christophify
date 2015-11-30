@@ -32,12 +32,13 @@ h1 {
 
 .primary-text {
   line-height: 22px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
 }
 
-.secondary-text {
+.secondary-text, small, .small {
   color: #8F8F8F;
+  font-size: 16px;
 }
 
 #site-wrapper {
@@ -51,6 +52,7 @@ h1 {
 /* Menu */
 #menu {
   font-size: 18px;
+  height: 70px;
 }
 
 #menu a:hover {
@@ -90,28 +92,84 @@ h1 {
 
 }
 
-#artists-content {
+.list-content {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.artist-wrapper {
+.list-content a{
+  color: white;
+}
+
+.list-content a:hover{
+  text-decoration: none;
+
+}
+
+.list-content .list-wrapper {
   margin: 10px;
-  height: 300px;
+  height: 315px;
+  width: 225px;
   background-color: #313136;
 }
 
-.artist-image{
-  width: 225px;
+.list-content .list-image{
   height: 225px;
   overflow: hidden;
+  position: relative;
+}
+.list-content .list-image-button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F6F4F4;
+  cursor: pointer;
+  font-size: 70px;
+}
+.list-content .list-image-button > .fa{
+  display: none;
 }
 
-.artist-image img{
+.list-content .list-image:hover .list-image-button .fa{
+  display: block;
+}
+
+.list-content .list-image-button:hover{
+  background-color: rgba(88, 88, 88, 0.6);
+}
+
+.list-content img{
   width:100%;
 }
 
-.artist-info {
+.list-content .list-data {
   padding: 15px;
 }
 
+.music-player {
+  position: fixed;
+  height: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0C0C0C;
+  overflow: hidde;
+}
+.music-player .button {
+  font-size: 30px;
+}
+.music-player img{
+  height: 50px;
+  border-radius: 50px;
+}

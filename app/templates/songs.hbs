@@ -1,11 +1,22 @@
-<h2>Top Songs</h2>
+<ul class="list-content">
+{{#each sortedSongs as |song|}}
+  <li class="list-wrapper">
+    <div class="list-image">
+      <img src="{{song.artist.thumbnail}}" alt="">
+      <div class="list-image-button" {{action 'play' song}}>
+        <span class="fa fa-play"></span>
+      </div>
+    </div>
+    <div class="list-data">
 
-<ul id="top-song-list">
-{{#each model as |song|}}
-  <li>
-    <div class="song-name">{{song.name}}</div>
-    <div class="song-artist">{{song.artist.name}}</div>
-    <button {{action 'play' song}}>Play</button>
+      <div class="primary-text">
+        {{song.name}}
+      </div>
+      <div class="secondary-text">
+        {{song.artist.name}} <br>
+        {{format-time song.length}}
+      </div>
+    </div>
   </li>
 {{/each}}
 </ul>

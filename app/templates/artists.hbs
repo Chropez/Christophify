@@ -1,13 +1,13 @@
-<div id="artists-content">
+<div class="list-content">
   {{#each model as |artist|}}
-    <div class="artist-wrapper">
-      <div class="artist-image">
-        <img src="{{artist.image}}" alt="">
+    {{#link-to 'artist' artist classNames="list-wrapper"}}
+      <div class="list-image">
+        <img src="{{artist.thumbnail}}" alt="">
       </div>
-      <div class="artist-info">
+      <div class="list-data">
         <div class="primary-text">{{artist.name}}</div>
         <div class="secondary-text">{{artist.songs.length}} songs</div>
       </div>
-    </div>
+    {{/link-to}}
   {{/each}}
 </div>
