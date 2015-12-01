@@ -1,7 +1,16 @@
-<h2>{{model.name}}</h2>
+<div class="header">
+  <img src="{{model.coverImage}}" alt="">
+  <div class="header-overlay"></div>
+  <div class="header-data">
+    <img src="{{model.thumbnail}}" alt="">
+    <div>
+      <div class="secondary-text">Artist</div>
+      <div class="primary-text">{{model.name}}</div>
+    </div>
+  </div>
+</div>
 <ul>
-  {{#each model.songs as |song|}}
-    <li>{{song.name}}</li>
-  {{/each}}
-</ul>
-
+      {{#each model.songs as |song|}}
+        <li>{{song.name}}</li>
+      {{/each}}
+    </ul>

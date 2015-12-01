@@ -189,3 +189,42 @@ h1 {
 .music-player .secondary-text {
   font-size: 12px;
 }
+
+/* Artist */
+.header {
+  margin: 0 -30px;
+  position: relative;
+  height: 170px;
+  overflow: hidden;
+}
+.header img {
+  width: 100%;
+}
+
+.header-overlay {
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
+
+.header-data {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.header-data img{
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.header-data > div {
+  position: absolute;
+  bottom: 30px;
+}
