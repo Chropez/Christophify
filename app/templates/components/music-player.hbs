@@ -1,20 +1,21 @@
 {{#if hasSong}}
-  <div class="button">
-    {{#if isPlaying}}
-      <div {{action 'pause'}} class="fa fa-play-circle"></div>
-    {{else}}
-      <div {{action 'play'}} class="fa fa-pause-circle"></div>
-    {{/if}}
-  </div>
-  {{!-- <img src="{{song.artist.thumbnail}}" alt=""> --}}
-  <img src="http://profile-images.scdn.co/artists/default/436a91744e5b63843023f15477656c953c9e2b21" alt="">
-  <div class="song-data">
-    <div class="primary-text">
-      {{song.name}}
+  <div class="music-player">
+    <div class="button">
+      {{#if isPlaying}}
+        <div {{action 'pause'}} class="fa fa-pause"></div>
+      {{else}}
+        <div {{action 'play'}} class="fa fa-play"></div>
+      {{/if}}
     </div>
-    <div class="secondary-text">
-      {{song.artist.name}} <br>
-      {{format-time song.length}}
+    <img src="{{song.artist.thumbnail}}" alt="">
+    <div class="song-data">
+      <div class="primary-text">
+        {{song.name}}
+      </div>
+      <div class="secondary-text">
+        {{song.artist.name}} <br>
+        {{format-time song.length}}
+      </div>
     </div>
   </div>
 {{/if}}

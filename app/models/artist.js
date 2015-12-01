@@ -10,5 +10,5 @@ export default DS.Model.extend({
   date : attr('date'),
   listened: attr('number'),
 
-  songs: hasMany('song', { async: true })
+  songs: hasMany('song')
 });

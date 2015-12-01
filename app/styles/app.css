@@ -165,11 +165,27 @@ h1 {
   align-items: center;
   background-color: #0C0C0C;
   overflow: hidde;
+  line-height: 14px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.8);
 }
 .music-player .button {
   font-size: 30px;
+  margin: 0 10px;
+  width: 25px;
+}
+.music-player .button .fa:hover {
+  cursor: pointer;
+  color: #11C937;
 }
 .music-player img{
-  height: 50px;
-  border-radius: 50px;
+  height: 60px;
+  border-radius: 60px;
+  margin: 0 10px;
+}
+
+.music-player .primary-text {
+  font-size: 14px;
+}
+.music-player .secondary-text {
+  font-size: 12px;
 }

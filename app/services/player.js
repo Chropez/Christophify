@@ -28,7 +28,7 @@ export default Ember.Service.extend({
   },
 
   unpause() {
-    const { audio} = this.getProperties('audio');
+    const {audio} = this.getProperties('audio');
     if(Ember.isBlank(audio.src)) {
       console.log("Can't unpause. No source found on audio");
       return ;
