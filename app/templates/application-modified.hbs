@@ -1,0 +1,22 @@
+<div id="site-wrapper">
+  <div id="menu">
+    <ul>
+      <li>
+        {{#link-to 'index'}}Home{{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'artists'}}Top Artists{{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'songs'}}Top Songs{{/link-to}}
+      </li>
+    </ul>
+  </div>
+
+  <div id="content">
+    {{outlet}}
+  </div>
+
+</div>
+
+  {{music-player}}

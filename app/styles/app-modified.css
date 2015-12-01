@@ -1,0 +1,230 @@
+body {
+  background-color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+a, a:active, a:visited {
+  color: #11C937;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+
+h1,h2,h3, h4 {
+  color:white;
+}
+
+h1 {
+
+}
+
+.primary-text {
+  line-height: 22px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.secondary-text, small, .small {
+  color: #8F8F8F;
+  font-size: 16px;
+}
+
+#site-wrapper {
+  background-color: #2D2D32;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 0 3px rgba(0,0,0,0.8);
+  overflow: auto;
+}
+
+/* Menu */
+#menu {
+  font-size: 18px;
+  height: 70px;
+}
+
+#menu a:hover {
+  text-decoration: none;
+}
+
+#menu a {
+  display: block;
+  color: #A6A6A6;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+#menu a:hover, #menu a.active {
+  border-bottom: 4px solid #11C937;
+  color: white;
+}
+
+#menu ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#content {
+  padding: 10px 30px;
+  min-height: 700px;
+}
+
+#content h2 {
+
+}
+
+.list-content {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-content a{
+  color: white;
+}
+
+.list-content a:hover{
+  text-decoration: none;
+
+}
+
+.list-content .list-wrapper {
+  margin: 10px;
+  height: 315px;
+  width: 225px;
+  background-color: #313136;
+}
+
+.list-content .list-image{
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+}
+.list-content .list-image-button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F6F4F4;
+  cursor: pointer;
+  font-size: 70px;
+}
+.list-content .list-image-button > .fa{
+  display: none;
+}
+
+.list-content .list-image:hover .list-image-button .fa{
+  display: block;
+}
+
+.list-content .list-image-button:hover{
+  background-color: rgba(88, 88, 88, 0.6);
+}
+
+.list-content img{
+  width:100%;
+}
+
+.list-content .list-data {
+  padding: 15px;
+}
+
+.music-player {
+  position: fixed;
+  height: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0C0C0C;
+  overflow: hidde;
+  line-height: 14px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.8);
+}
+.music-player .button {
+  font-size: 30px;
+  margin: 0 10px;
+  width: 25px;
+}
+.music-player .button .fa:hover {
+  cursor: pointer;
+  color: #11C937;
+}
+.music-player img{
+  height: 60px;
+  border-radius: 60px;
+  margin: 0 10px;
+}
+
+.music-player .primary-text {
+  font-size: 14px;
+}
+.music-player .secondary-text {
+  font-size: 12px;
+}
+
+/* Artist */
+.header {
+  margin: 0 -30px;
+  position: relative;
+  height: 170px;
+  overflow: hidden;
+}
+.header img {
+  width: 100%;
+}
+
+.header-overlay {
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
+
+.header-data {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.header-data img{
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.header-data > div {
+  position: absolute;
+  bottom: 30px;
+}
