@@ -1,1 +1,870 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"sort",
+				"sortSongsBy"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"dishes",
+				"dishesFetched"
+			],
+			[
+				"week",
+				"weekId"
+			],
+			[
+				"get",
+				"getWeekId"
+			],
+			[
+				"au",
+				"authenticatedRoute"
+			],
+			[
+				"set",
+				"getSettings"
+			],
+			[
+				"pro",
+				"promise"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"afterLog",
+				"_afterLoginEventQueue"
+			],
+			[
+				"load",
+				"loadingIcon"
+			],
+			[
+				"pos",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".ember-cli",
+			"settings":
+			{
+				"buffer_size": 309,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "in pa",
+		"selected_items":
+		[
+			[
+				"in pa",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inap",
+				"Package Control: Install Package"
+			],
+			[
+				"inspa",
+				"Package Control: Install Package"
+			],
+			[
+				"rePa",
+				"Package Control: Remove Package"
+			],
+			[
+				"removP",
+				"Package Control: Remove Package"
+			],
+			[
+				"inpa",
+				"Package Control: Install Package"
+			],
+			[
+				"rempac",
+				"Package Control: Remove Package"
+			],
+			[
+				"inpac",
+				"Package Control: Install Package"
+			],
+			[
+				"rempack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ipac",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in pac",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"in pc",
+				"Package Control: Install Package"
+			],
+			[
+				"ss javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"setsytax jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"setsy rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syn rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"hbs",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"ss ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"e",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"expand",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"setSy",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax c#",
+				"Set Syntax: C#"
+			],
+			[
+				"set syn xml",
+				"Set Syntax: XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Y/Christophify",
+		"/Y/Christophify/app",
+		"/Y/Christophify/app/controllers",
+		"/Y/Christophify/app/mirage",
+		"/Y/Christophify/app/services",
+		"/Y/Christophify/app/templates",
+		"/Y/Christophify/app/templates/components",
+		"/Y/Christophify/config"
+	],
+	"file_history":
+	[
+		"/Y/Christophify/app/templates/artist.hbs",
+		"/Y/Christophify/app/mirage/fixtures/artists.js",
+		"/Y/Christophify/app/mirage/fixtures/songs.js",
+		"/Y/Christophify/app/styles/app.css",
+		"/Y/Christophify/config/environment.js",
+		"/Y/Christophify/app/templates/songs.hbs",
+		"/Y/Christophify/app/controllers/songs.js",
+		"/Y/Christophify/app/components/music-player.js",
+		"/Y/Christophify/app/models/song.js",
+		"/Y/Christophify/app/mirage/config.js",
+		"/Y/Christophify/app/models/artist.js",
+		"/Y/Christophify/app/templates/components/music-player.hbs",
+		"/Y/Christophify/bower.json",
+		"/Y/Christophify/app/services/player.js",
+		"/Y/Christophify/app/templates/artists.hbs",
+		"/Y/Christophify/app/helpers/format-time.js",
+		"/Y/Christophify/app/routes/artist.js",
+		"/Y/Christophify/app/router.js",
+		"/Y/Christopiphy/app/services/player.js",
+		"/Y/Christopiphy/app/templates/application.hbs",
+		"/Y/Christopiphy/app/styles/app.css",
+		"/Y/Christopiphy/.git/config",
+		"/Y/Christopiphy/config/environment.js",
+		"/Y/Christopiphy/bower.json",
+		"/Y/Christopiphy/app/routes/artists.js",
+		"/Y/Christopiphy/app/templates/artists.hbs",
+		"/Y/Christopiphy/app/routes/songs.js",
+		"/Y/Christopiphy/app/templates/songs.hbs",
+		"/Y/Christopiphy/app/models/artist.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/models/song.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates/application.hbs",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates/artists.hbs",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/fixtures/artists.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/config.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/fixtures/songs.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/models/album.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/fixtures/album",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/models/artist.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/mirage/scenarios/default.js",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/styles/app.css",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/routes/artists.js",
+		"/C/Users/clopez/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/spotiapp.sublime-project",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/.ember-cli",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/bower.json",
+		"//EMBER-SERVER/ember-workspace/SpotiApp/app/templates/index.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/components/week-day/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/week/route.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/router.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/day/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/day/route.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/weekfood.sublime-project",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/week/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/sublime-project.sublime-project",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/models/user.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/models/week.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/components/week-planner/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/components/week-planner/component.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/serializers/user.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/week/controller.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/plan/route.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/application/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/application/route.js",
+		"/C/Users/clopez/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"//EMBER-SERVER/ember-workspace/Weekfood/.sublime-project",
+		"/C/Workspace/Jpn/Development/Main/Documents/bootstrap-datepicker-changes.txt",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/new/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/index/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/models/recipe.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/new/controller.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/controller.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/new/route.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/torii-adapters/application.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipes/route.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/.gitignore",
+		"//EMBER-SERVER/ember-workspace/WeekfoodOld/app/pods/dishes/new/template.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/.travis.yml",
+		"//EMBER-SERVER/ember-workspace/Weekfood/public/crossdomain.xml",
+		"//EMBER-SERVER/ember-workspace/Weekfood/config/environment.js",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/app/router.js",
+		"/Y/Weekfood/app/router.js",
+		"/Y/Weekfood/app/pods/application/template.hbs",
+		"/Y/Weekfood/app/pods/recipes/template.hbs",
+		"/Y/Weekfood/podsOld/dishes/template.hbs",
+		"/Y/Weekfood/app/pods/login/template.hbs",
+		"/Y/Weekfood/node_modules/ember-export-application-global/index.js",
+		"/Y/Weekfood/app/pods/application/route.js",
+		"/Y/Weekfood/config/environment.js",
+		"/Y/Weekfood/app/styles/app.css",
+		"/Y/Weekfood/app/torii-adapters/application.js",
+		"/Y/Weekfood/app/models/recipe.js",
+		"/Y/Weekfood/app/transitions.js",
+		"/Y/Weekfood/app/models/dish.js",
+		"/C/Program Files/Git/etc/install-options.txt",
+		"/D/Private/.gitconfig",
+		"/Y/Weekfood/.gitattributes",
+		"/Y/Weekfood/.ember-cli",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/pods/recipe/model.js",
+		"//EMBER-SERVER/ember-workspace/Weekfood/package.json",
+		"//EMBER-SERVER/ember-workspace/Weekfood/.ember-cli",
+		"//EMBER-SERVER/ember-workspace/Weekfood/app/templates/application.hbs",
+		"//EMBER-SERVER/ember-workspace/Weekfood/bower.json",
+		"//EMBER-SERVER/ember-workspace/Weekfood/.editorconfig",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/package.json",
+		"/C/Workspace/Jpn/Development/Main/Documents/Test/Testdata/SoapUI/vaccination_TEST_197705232382.xml",
+		"/C/temp/Jpn.Service.WcfService/Jpn.Service.WcfService.SetParameters.xml",
+		"/C/Workspace/Jpn/Development/Main/Documents/Test/Testdata/SoapUI/vaccination_TEST_200108188799.xml",
+		"/C/Workspace/Jpn/Development/Main/Documents/Test/Testdata/SoapUI/vaccination_v1_TEST_197705232382.xml",
+		"/C/Workspace/Jpn/Development/Main/Documents/Test/Testdata/SoapUI/vaccination_v1_empty.xml",
+		"/C/Users/clopez/AppData/Local/Temp/Temp1_Jpn.Web.Client.zip/Content/C_C/Builds/1/JPN/CreateReleaseExternTest/Sources/JPN/Jpn.Web.Client/obj/Release/Package/PackageTmp/Web.config",
+		"/C/temp/CreateReleaseExternTest_20151015.3/Jpn.Web.Client/Jpn.Web.Client.SetParameters.xml",
+		"/C/temp/CreateReleaseExternTest_20151013.2/Jpn.Web.Client/Jpn.Web.Client.SetParameters.xml",
+		"/C/temp/CreateReleaseExternTest_20151015.2/Jpn.Web.Client/Jpn.Web.Client.SetParameters.xml",
+		"/C/Users/clopez/AppData/Local/Temp/Temp1_Jpn.Web.Client.zip/Content/C_C/Builds/1/JPN/CreateReleaseLulNMT_Branch/Sources/JPN/Jpn.Web.Client/obj/Release/Package/PackageTmp/Web.config",
+		"/C/temp/xmldiff/Web.config",
+		"/C/Users/clopez/Desktop/getMedicationHistoryResponse.xml",
+		"/C/Workspace/Jpn/Development/Main/Documents/Schemas/Vad är vad.txt",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/app/templates/application.hbs",
+		"/D/Private/Vagrant/Vagrantfile",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/ember-cli-build.js",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/README.md",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/bower.json",
+		"//EMBER-SERVER/ember-workspace/luloPhotos/.ember-cli",
+		"/C/Workspace/Jpn/Development/.tfignore",
+		"/C/temp/IIS/Jpn.Admin.Client/Jpn.Admin.Client.SetParameters.LulPROD.xml",
+		"/D/Private/Vagrant/provision2-user.sh"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"ul",
+			"li",
+			"ul",
+			"thumbnail:",
+			"image:",
+			"image",
+			"thumbnail",
+			"image",
+			"300",
+			"date: null",
+			"mp3: '',",
+			"artist: 1",
+			"artist_id",
+			"songs_id",
+			"song_ids",
+			"son",
+			"name:",
+			"date: null,",
+			"\n    date: null,",
+			"{\n    name: 'Ed Sheeran',\n    image: '',\n    date: null,\n  },\n  ",
+			"\n    artist_id: 1",
+			"thi",
+			"4*60+41",
+			"DS.",
+			"Artists",
+			"Service",
+			"\n  nextWeek : Ember.computed('momentWeek', function() {\n    return this.get('momentWeek').add(1, 'week').week();\n  })",
+			"sideloaded",
+			"james Fra",
+			"19960312",
+			"20050312",
+			"20140312",
+			"vacc1",
+			"sourceSystemHSAid",
+			"1996",
+			":2",
+			"2005",
+			"wcf",
+			"dose>",
+			"urn:vaccinationMedicalRecord",
+			"typeOfVaccine>",
+			"dose>",
+			"dosage",
+			"orgUnitHSAid",
+			"vaccinationMedicalRecord",
+			"urn:vaccinationMedicalRecord",
+			"cordova",
+			"test",
+			"qa",
+			"Tetravac",
+			"Boostrix",
+			"Stelkramp",
+			"Difteri",
+			"Boostrix",
+			"20041222",
+			"20121222",
+			"default",
+			"ps1",
+			"keepMeLoggedInEnabled",
+			"debugger",
+			"de",
+			"debugger",
+			"\"",
+			"addAfterLoginListeners",
+			"addEventHandlers",
+			"addAfterLoginListeners",
+			"afterLoad",
+			"prependAfter",
+			"afterLogin",
+			"createViewModel",
+			"hoverarea",
+			"expand",
+			"expaand",
+			"html",
+			"expand_abbreviation_by_tab",
+			"network",
+			"hostname",
+			"20130524",
+			"CreateUserEventLogReport",
+			"IX_SourceSystemId",
+			"UserLoginReports",
+			"UserLoginRe",
+			"z-index",
+			"respite",
+			"20130606",
+			"20150428",
+			"20150203",
+			"20150203094631",
+			"20150203",
+			"20150304",
+			"20150929",
+			"20130525",
+			"20141219",
+			"rådrum",
+			"20150502",
+			"201506110642",
+			"20130525",
+			"ssl",
+			"Update",
+			"tempu",
+			"dp0",
+			"on",
+			"PatientInformationUpdate",
+			"z-index",
+			"z-in",
+			"loading",
+			"oon-loading-wrapper",
+			"removeC",
+			"Blekinge",
+			".JPG",
+			"2238",
+			"2344",
+			"2328",
+			"2231",
+			"button-tray-down",
+			"img/",
+			"img",
+			"\"img/img_2703.JPG\"",
+			"<li>",
+			"demo",
+			"<img",
+			" <div>\n          <img",
+			"<div>\n          <img",
+			" u=\"image\" ",
+			"cont",
+			"img_co",
+			"\n      <div>\n      </div>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"thumbnail:",
+			"thumbnail",
+			"Sourcesystem 1",
+			":1",
+			"dosage>",
+			"vaccineType>",
+			"dosage>",
+			"orgUnitHSAid",
+			"'",
+			"20151008",
+			"20150929",
+			" ",
+			"img_",
+			"dsc"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".ember-cli",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								277
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.546681254559,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "christophify.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.c",
+				"app\\styles\\app.css"
+			],
+			[
+				"arthb",
+				"app\\templates\\artist.hbs"
+			],
+			[
+				"mison",
+				"app\\mirage\\fixtures\\songs.js"
+			],
+			[
+				"sonhb",
+				"app\\templates\\songs.hbs"
+			],
+			[
+				"miar",
+				"app\\mirage\\fixtures\\artists.js"
+			],
+			[
+				"artist",
+				"app\\models\\artist.js"
+			],
+			[
+				"play",
+				"app\\services\\player.js"
+			],
+			[
+				"music-plahb",
+				"app\\templates\\components\\music-player.hbs"
+			],
+			[
+				"songhbs",
+				"app\\templates\\songs.hbs"
+			],
+			[
+				"arhb",
+				"app\\templates\\artist.hbs"
+			],
+			[
+				"css",
+				"app\\styles\\app.css"
+			],
+			[
+				"mosong",
+				"app\\models\\song.js"
+			],
+			[
+				"miart",
+				"app\\mirage\\fixtures\\artists.js"
+			],
+			[
+				"applihb",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"spla",
+				"app\\services\\player.js"
+			],
+			[
+				"moso",
+				"app\\models\\song.js"
+			],
+			[
+				"mo",
+				"app\\models\\album.js"
+			],
+			[
+				"moar",
+				"app\\models\\artist.js"
+			],
+			[
+				"rouart",
+				"app\\routes\\artists.js"
+			],
+			[
+				"modart",
+				"app\\models\\artist.js"
+			],
+			[
+				"apphb",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"aphb",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"router",
+				"app\\router.js"
+			],
+			[
+				"modelwe",
+				"app\\models\\week.js"
+			],
+			[
+				"modeluser",
+				"app\\models\\user.js"
+			],
+			[
+				"modelwee",
+				"app\\models\\week.js"
+			],
+			[
+				"moduser",
+				"app\\models\\user.js"
+			],
+			[
+				"apptem",
+				"app\\pods\\application\\template.hbs"
+			],
+			[
+				"rout",
+				"app\\router.js"
+			],
+			[
+				"appte",
+				"app\\pods\\application\\template.hbs"
+			],
+			[
+				"aproute",
+				"app\\pods\\application\\route.js"
+			],
+			[
+				"modeluse",
+				"app\\models\\user.js"
+			],
+			[
+				"",
+				"Weekfood\\.gitignore"
+			],
+			[
+				"moderecipe",
+				"app\\models\\recipe.js"
+			],
+			[
+				"mouser",
+				"app\\models\\user.js"
+			],
+			[
+				"retempla",
+				"app\\pods\\recipes\\template.hbs"
+			],
+			[
+				"aptem",
+				"app\\pods\\application\\template.hbs"
+			],
+			[
+				"distem",
+				"podsOld\\dishes\\template.hbs"
+			],
+			[
+				"applindex",
+				"node_modules\\ember-export-application-global\\index.js"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"teappl",
+				"app\\templates\\application.hbs"
+			],
+			[
+				".git",
+				"Weekfood\\.gitignore"
+			],
+			[
+				"vaccv1",
+				"SoapUI\\vaccination_v1_TEST_197705232382.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
